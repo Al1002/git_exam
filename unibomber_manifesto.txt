@@ -1,1 +1,12 @@
 Also interactive rebase is just a cursed creation- this is to be read after the commit in master; rebase -i is a cursed creation that only madmen and people with too much free time do. I had the briliant idea of following gitflow but merges were done with a squashed commit. I dont even know what i did, i just know it made me suffer.
+Also here are my aliases. Great because git log is dogshit by default:
+
+[alias]
+lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C>
+lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C>
+log-graph = lg1
+
+pase in home/.gitconfig and use log-graph, draws real fancy ascii branch art
+way better than having to sift through log output
+
+lg2 is just a bit changed, i forgot why
