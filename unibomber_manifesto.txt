@@ -1,0 +1,1 @@
+Also interactive rebase is just a cursed creation- this is to be read after the commit in master; rebase -i is a cursed creation that only madmen and people with too much free time do. I had the briliant idea of following gitflow but merges were done with a squashed commit. I dont even know what i did, i just know it made me suffer.
